@@ -5,5 +5,121 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vw;
+  //height: 30vw;
+  margin-top: -76%;
 }
+
+.group{
+  width: 100%;
+  z-index: -1;
+}
+
+.substanceRightConteiner{
+  position: absolute;
+  top: 20%;
+  right: 0;
+  width: 34%;
+  .substanceRight{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.substanceLeftConteiner{
+  position: absolute;
+  top: 42%;
+  left: 0;
+  width: 40%;
+  .substanceLeft{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.starWhite{
+  position: absolute;
+  top: 34%;
+  right: 83%;
+  width: 9%;
+}
+
+.starBlack{
+  position: absolute;
+  top: 44%;
+  right: 27%;
+  width: 6%;
+}
+
+.containerInfo{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  left: 5%;
+  top: 50%;
+}
+
+.leftInfo{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+
+  color: #000;
+  font-family: "DM Serif Display";
+  font-size: 1.5vw;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.8vw;
+
+  span{
+    font-size: 2vw;
+  }
+  .tx2{
+    margin-top: 2%;
+    margin-left: 33%;
+  }
+}
+
+.rightInfo{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: #000;
+  text-align: right;
+  font-family: "Source Sans Pro";
+  font-size: 1.5vw;
+  font-weight: 400;
+  line-height: 1.8vw;
+
+  span{
+    font-size: 2vw;
+  }
+  .tx1{
+    margin-top: 9%;
+    margin-right: 11%;
+  }
+  .tx2{
+    margin-top: 2%;
+    margin-left: 11%;
+  }
+}
+
+.containerIcon{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 8%;
+  margin-left: 20%;
+  .icon{
+    width: 8%;
+  }
+}
+
+
