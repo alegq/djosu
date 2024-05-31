@@ -5,6 +5,7 @@ import Block3 from "@/components/block3";
 import Block4 from "@/components/block4";
 import Block5 from "@/components/block5";
 import Block7 from "@/components/block7";
+import Block8 from "@/components/block8";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Block5 />
       {/*<Block6 />*/}
       <Block7 />
+      <Block8 />
     </div>
   );
 }
