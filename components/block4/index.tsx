@@ -20,7 +20,6 @@ const Block4: FC = () => {
         <div>find their dream IT jobs.</div>
       </div>
       <div className={styles.become}>Become part of our team now! </div>
-      <div>Become part of our team now!</div>
       <Image src={boxGreen} alt="boxGreen" className={styles.boxGreen} />
       <Image src={star} alt="star" className={styles.star} />
       <div className={styles.oval}>
