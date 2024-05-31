@@ -5,119 +5,92 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 60vw;
 }
 
-.text1{
+.text{
   position: absolute;
   top: 20%;
-  left: 15%;
-  width: 37%;
+  left: 4%;
+  width: 41%;
   display: flex;
   flex-direction: column;
-  color: #000;
+  justify-content: center;
+  align-items: center;
+  padding: 1% 0;
+
+  border-radius: 40px;
+  border: 2px solid #FFF;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.63) 0%, rgba(255, 255, 255, 0.00) 100%), rgba(255, 255, 255, 0.73);
+  backdrop-filter: blur(5px);
+
+  color: #636262;
   font-family: "DM Serif Display";
-  font-size: 2vw;
+  font-size: 1.5vw;
   font-style: italic;
   font-weight: 400;
-  line-height: 40px;
-  .sp1{
-    margin-bottom: 5px;
-  }
-}
+  line-height: 2.5vw;
 
-.text2{
-  position: absolute;
-  top: 36%;
-  left: 50%;
-  width: 40%;
-  color: #280C63;
-  font-family: "Source Sans Pro";
-  font-size: 2.5vw;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 40px;
-  z-index: 5;
   span{
-    color: #8047F9;
+    color: #000;
+  }
+
+  .tx1{
+    margin-right: 7%;
+    width: 73%;
+  }
+  .tx2{
+    margin-left: 32%;
+    width: 63%;
   }
 }
 
-.heart{
-  width: 72%;
+.baseImage{
+  margin-left: 46%;
+  width: 52%;
+}
+
+.springGreenRight{
   position: absolute;
-  top: -37%;
-  left: -1%;
+  top: -15%;
+  left: 41%;
+  width: 17%;
+}
+
+.springGreenLeft{
+  position: absolute;
+  top: 38%;
+  left: 2%;
+  width: 15%;
+}
+
+.lineTop{
+  position: absolute;
+  top: -56%;
+  left: -11%;
+  width: 100%;
   z-index: -1;
 }
 
-.liquidaTop{
+.lineBottom{
+  position: absolute;
+  top: 8%;
+  left: -24%;
+  width: 100%;
+  z-index: -1;
+}
+
+.vector{
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  width: 60%;
+  z-index: -1;
+}
+
+.ellipse{
+  position: absolute;
+  top: 27%;
+  left: -2%;
   width: 16%;
-  height: 28%;
-  position: absolute;
-  top: -11%;
-  right: 0;
   z-index: -1;
-}
-
-.liquidaLeft{
-  position: absolute;
-  width: 16%;
-  top: 22%;
-  left: 1%;
-  z-index: -1;
-}
-
-.competitive{
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  top: 45%;
-  left: 15%;
-}
-.flexible{
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  top: 55%;
-  left: 35%;
-}
-.professionalTeam{
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  top: 55%;
-  left: 55%;
-}
-.ProfessionalGrowth{
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  top: 45%;
-  left: 75%;
-}
-
-.figure{
-  width: 55%;
-}
-
-.signature{
-  width: 72%;
-  color: #000;
-  text-align: center;
-  text-shadow: 0px 0px 10px #FFF493;
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 1vw;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 1.8vw; /* 139.615% */
-  text-transform: uppercase;
 }
