@@ -1,0 +1,96 @@
+.container {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text{
+  position: absolute;
+  top: 20%;
+  left: 4%;
+  width: 41%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1% 0;
+
+  border-radius: 40px;
+  border: 2px solid #FFF;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.63) 0%, rgba(255, 255, 255, 0.00) 100%), rgba(255, 255, 255, 0.73);
+  backdrop-filter: blur(5px);
+
+  color: #636262;
+  font-family: "DM Serif Display";
+  font-size: 1.5vw;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 2.5vw;
+
+  span{
+    color: #000;
+  }
+
+  .tx1{
+    margin-right: 7%;
+    width: 73%;
+  }
+  .tx2{
+    margin-left: 32%;
+    width: 63%;
+  }
+}
+
+.baseImage{
+  margin-left: 46%;
+  width: 52%;
+}
+
+.springGreenRight{
+  position: absolute;
+  top: -15%;
+  left: 41%;
+  width: 17%;
+}
+
+.springGreenLeft{
+  position: absolute;
+  top: 38%;
+  left: 2%;
+  width: 15%;
+}
+
+.lineTop{
+  position: absolute;
+  top: -56%;
+  left: -11%;
+  width: 100%;
+  z-index: -1;
+}
+
+.lineBottom{
+  position: absolute;
+  top: 8%;
+  left: -24%;
+  width: 100%;
+  z-index: -1;
+}
+
+.vector{
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  width: 60%;
+  z-index: -1;
+}
+
+.ellipse{
+  position: absolute;
+  top: 27%;
+  left: -2%;
+  width: 16%;
+  z-index: -1;
+}
